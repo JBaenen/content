@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/dig-eg-gaz/resources/master/out/egSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?> <?xml-stylesheet type="text/css" href="dig-eg-gaz.css"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,8 +12,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date when="2016-09-19">2016-10-23</date>
-                </edition>
+                    <date when="2016-10-23">October 23, 2016</date><gloss>1</gloss></edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU University Libraries</publisher>
@@ -21,71 +21,132 @@
             <sourceDesc>
                 <bibl>
                     <title>Egyptian Gazette</title>
-                    <date when="1905-01-01">1905-04-13</date>
-                </bibl>
+                    <date when="1905-04-13">April 13, 1905</date>
+                    <extent><measure unit="pages" quantity="6">6</measure> pages</extent></bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
+            <pb n="1"/>
             <div type="page" n="1">
-                <head>THE EGYPTIAN GAZETTE</head>
-                <!-- Enter issue number, date, and correct number of pages -->
-                <head type="sub">No. 7239] ALEXANDRIA, THURSDAY, JULY 13, 1905. [SIX PAGES P.T. 1. </head>
-                <div type="section" scope="advertisement"> </div>
+                <div type="nameplate">
+                    <table cols="6">
+                        <row>
+                            <!-- paste left top ad in first cell -->
+                            <cell rows="2" xml:id="deg-ad-etc01"><p>The Eastern Telegraph Company,
+                                Limited.</p>
+                                <p>This Company's system of submarine telegraph <lb/>cables is the
+                                    most direct and quickest means of <lb/>communication from Egypt
+                                    to Europe, North and <lb/>South America, East, South and West
+                                    Africa, <lb/>India, Australia, New Zealand, China and Japan.</p>
+                                <p>To secure quick transmission, telegrams should <lb/>be marked <hi
+                                    rend="italic">Via Eastern</hi>.</p>
+                                <p>For latest average time to London, see daily <lb/>bulletin in
+                                    this paper.</p>
+                                <p>STATIONS IN EGYPT: Alexandria, Cairo, <lb/>Suez, Port-Tewfik,
+                                    Port-Saïd, Suakin. Head <lb/>Office. London.</p></cell>
+                            <cell cols="4">THE EGYPTIAN GAZETTE</cell>
+                            <!-- paste right top ad in third cell -->
+                            <cell rows="2" xml:id="deg-ad-nll01"><p>NORDDEUTSCHER LLOYD</p>
+                                <p>BREMEN.</p>
+                                <p>EXPRESS MAIL STEAMERS<lb/>FROM<lb/>ALEXANDRIA, PORT SAID, AND
+                                    SUEZ,<lb/>TO<lb/>NAPLES, MARSEILLES,<lb/>GENOA, SOUTHAMPTON,
+                                    ANTWERP,<lb/>BREMEN, HAMBURG, AMERICA,<lb/>EASTERN ASIA,
+                                    AUSTRALIA Etc.</p>
+                                <p>For Particulars see Advertisement below.</p></cell>
+                        </row>
+                        <row>
+                            <cell> No. <measure quantity="7239">7,239</measure>]</cell>
+                            <!-- Enter issue number -->
+                            <cell> ALEXANDRIA, THURSDAY, JULY 13, 1905.</cell>
+                            <!-- Enter date -->
+                            <cell> [SIX PAGES</cell>
+                            <!-- Enter number of pages -->
+                            <cell> P.T. 1</cell>
+                        </row>
+                    </table>
+                </div>
+                <cols n="3"/>
+                <cb n="1"/>
+                <!-- insert first ad here -->
+                
+                <cb n="2"/>
+                <!-- second column of ads -->
+                
+                <cb n="3"/>
+                <!-- third column of ads -->
+                
             </div>
-            <div type="page" n="2"> </div>
+            <pb n="2"/>
+            <div type="page" n="2" status="empty"> </div> 
+            <pb n="3"/>
             <div type="page" n="3">
-                <div type="item">
-                    <head>THE EGYPTIAN GAZETTE, THURSDAY, APRIL 13, 1905.</head>
-                </div>
-                <div type="item">
+                <div type="section" feature="local">
                     <head>LOCAL AND GENERAL</head>
-                    <p>The Military School annual athletic sports will take place on the Obseratory
-                        parade ground, Abbassieh, on Thursday, 27th inst.</p>
-
-                    <p>Delta Light Railways.—The annual sports of the employes of the Delta Light
-                        Railways will take place at Damanhour on the 22nd inst.</p>
-
-                    <p>Popular University.—M. Pachundaki will lecture at the University on "The
-                        Prehistoric Man" on Saturday next, at 9 15 p.m. Ad- mittance is free</p>
-
-
-                    <p>Stray And Ownerless Dogs found in the Ain Chams district of Cairo during dawn
-                        on Friday, and in the Khalifa district during the night on Friday and dawn
-                        of Saturday, will be poisoned by the police.</p>
-
-                    <p>Suez Canal.- 11 vessels passed through the Canal on the 10th inst., 7 of
-                        which were British, 3 German, 1 Dutch. The day's receipts were frs.
-                        235,985.70, making the total from the 1st inst. frs. 3,259,515.61. </p>
-                    <p>The Opera House.—The demolition of the Khedivial Opera House, Cairo, and its
-                        recon- struction have, it seems, been decided on in principle, but no
-                        definite decision has been, come to as to when the work will be put in hand. </p>
-
-                    <p>Egyptian State Railways.—The Board of Administration informs us that the new
-                        Benha passenger station will be opened for traffic on the 15th inst.; but
-                        the goods traffic will continue to be dealt with at the old station, as at
-                        present.</p>
-
-                    <p>Abbas Helmy Theatre.—The collection or ganised by three actresses of the
-                        Coquelin Cadet company for the benefit of Gatti’s circus troupe, who
-                        suffered by the Abbas Helmy Theatre fire, amounted to frs. 1,700. This
-                        morning the sum was handed to the Italian Consul.</p>
-
-                    <p>Union Syndicale Des Agriculteurs —The annual general meeting of the union
-                        will be held at San Stefano on Saturday next at 6.30 p.m., when a report on
-                        the past year will be read, and a proposal to remove the head- quarters of
-                        the union will be discussed. A banquet will follow the meeting.</p>
-
-                    <p>Easter Holidays.—The management of the Tewfik Palace Hotel offer to-residents
-                        desir- ous of spending the Easter holidays in Helouan unusual terms of P.T.
-                        50 per day for full pension. The same terms will be charged to those wishing
-                        to make a lengthy stay. Riding, lawn-tennis, golf, shooting, and rifle
-                        practice will be in full swing.</p>
+                    <div type="item">
+                        <p>The Military School annual athletic sports will take place on the
+                            Obseratory parade ground, Abbassieh, on Thursday, 27th inst.</p>
+                    </div>
+                    <div type="item">
+                        <head>Delta Light Railways</head>
+                        <p>The annual sports of the employes of the Delta Light Railways will take
+                            place at Damanhour on the 22nd inst.</p>
+                    </div>
+                    <div type="item">
+                        <head>Popular University</head>
+                        <p>M. Pachundaki will lecture at the University on "The Prehistoric Man" on
+                            Saturday next, at 9 15 p.m. Ad- mittance is free</p>
+                    </div>
+                    <div type="item">
+                        <head>Stray And Ownerless Dogs</head>
+                        <p>found in the Ain Chams district of Cairo during dawn on Friday, and in
+                            the Khalifa district during the night on Friday and dawn of Saturday,
+                            will be poisoned by the police.</p>
+                    </div>
+                    <div type="item">
+                        <head>Suez Canal</head>
+                        <p>11 vessels passed through the Canal on the 10th inst., 7 of which were
+                            British, 3 German, 1 Dutch. The day's receipts were frs. 235,985.70,
+                            making the total from the 1st inst. frs. 3,259,515.61. </p>
+                    </div>
+                    <div type="item">
+                        <head>The Opera House</head>
+                        <p>The demolition of the Khedivial Opera House, Cairo, and its recon-
+                            struction have, it seems, been decided on in principle, but no definite
+                            decision has been, come to as to when the work will be put in hand. </p>
+                    </div>
+                    <div type="item">
+                        <head>Egyptian State Railways</head>
+                        <p>The Board of Administration informs us that the new Benha passenger
+                            station will be opened for traffic on the 15th inst.; but the goods
+                            traffic will continue to be dealt with at the old station, as at
+                            present.</p>
+                    </div>
+                    <div type="item">
+                        <head>Abbas Helmy Theatre</head>
+                        <p>The collection or ganised by three actresses of the Coquelin Cadet
+                            company for the benefit of Gatti’s circus troupe, who suffered by the
+                            Abbas Helmy Theatre fire, amounted to frs. 1,700. This morning the sum
+                            was handed to the Italian Consul.</p>
+                    </div>
+                    <div type="item">
+                        <head>Union Syndicale Des Agriculteurs</head>
+                        <p>The annual general meeting of the union will be held at San Stefano on
+                            Saturday next at 6.30 p.m., when a report on the past year will be read,
+                            and a proposal to remove the head- quarters of the union will be
+                            discussed. A banquet will follow the meeting.</p>
+                    </div>
+                    <div type="item">
+                        <head>Easter Holidays</head>
+                        <p>The management of the Tewfik Palace Hotel offer to-residents desir- ous
+                            of spending the Easter holidays in Helouan unusual terms of P.T. 50 per
+                            day for full pension. The same terms will be charged to those wishing to
+                            make a lengthy stay. Riding, lawn-tennis, golf, shooting, and rifle
+                            practice will be in full swing.</p>
+                    </div>
                 </div>
-
-                <div type="item">
-                    <head>THE KHEDIVE.</head>
+                <div type="section" feature="khedive"><head>THE KHEDIVE.</head>
                     <p>The Khedive is expected to return to Cairo from Montazali on Saturday
                         evening.</p>
                     <p>A.S.C.</p>
@@ -97,38 +158,34 @@
                         Dance—Cossack—Tschakoff. Khedivial Anthem—God Save the King. S. Dore,
                         Bandmaster, 2nd Royal Berkshire Regiment.</p>
                 </div>
-                <div type="item">
-                    <head>STEAMER MOVEMENTS.</head>
+                <div type="section" feature="steamerMovements"><head>STEAMER MOVEMENTS.</head>
                     <p>The Messageries Maritimes S.S. ‘‘Niger” arrived at Marseilles from Alexandria
                         yesterday morning.</p>
                     <p>The Cunard S.S. “Veria" sailed direct for Liverpool this morning at daylight
                         with a full cargo, including 1,739 bales cotton and 24,531 bags onions.</p>
                 </div>
-
-                <div type="item">
-                    <head>CHRONIQUE JUDICIARE</head>
-                    <head>COUR D’APPEL MIXTE</head>
+                <div type="section" xml:lang="fr" feature="legal">
+                    <head>CHRONIQUE JUDICIAIRE</head>
+                   <div type="item"> <head>COUR D’APPEL MIXTE</head>
                     <head>OPERATION DE BOURSE</head>
                     <p>Les plaiduitis ds l’uffaifo Stagni-Salinae ont pria fin hicr instin. Ijs
                         juirties ont rqnouvefo i la barreTes argumen* qu’dle avaim t portdj devout
-                        lo tribunal do Cuuimercd d’Alexandrio qui, comrne Pon wit, a condsmud Stagni
+                        lo tribunal do Cuuimercd d’Alexandrie qui, comrne Pon wit, a condsmud Stagni
                         e fiHli, tondis quo la juiidiction consulaire ia lienneet la Cour d’Appcl
                         d’Ancune leur out iliinmlgain de cause.</p>
                     <p>Stagui e figli avaient la veille du poyement diLc upou d’iiitfrAti veudu un
                         millier d’obli- gations du Chompi do fer Keueh-Aesonan A Salinas freres. Cun
-                        derniera qui avaient vendu lei litres k la National Bank of Egypt prdten
+                        derniera qui avaient vendu lei litres à la National Bank of Egypt prdten
                         dent suivant le usages doT place avoir droit h oe coupon,droit qui
                         estfhrinellemcnt contcstt par Stagni e figli. Ceux ci foutieiinent, en effet
-                        quo le coupon tsnt le fruit de l’argent place en titre revient k colui qui
+                        quo le coupon tsnt le fruit de l’argent place en titre revient à colui qui
                         Fa dfionu toute Panne et non h celui qui ne i'a possfdd qu’on seul jour.</p>
                     <p>Cette question, trfca simple en elle-meme, est en TeepAce compliqufe par des
                         demandes de rfailiation de veute, dommsgee-intfifts, etc. Jugement a
-                        huitaine. </p>
+                        huitaine. </p></div>
                 </div>
                 <div type="item">
-                    <head>THE LOTTERY LAW.</head>
-                    <head>DISTURBANCES AT CAIRO. </head>
-                    <head>MR. CATTAOUI’S HOUSE ATTACKED. </head>
+                    <head>THE LOTTERY LAW. DISTURBANCES AT CAIRO. MR. CATTAOUI’S HOUSE ATTACKED. </head>
                     <p>The discontent with the enactments of the new lottery law culminated in an
                         extraordi- nary scene which took place at Cairo this morning.</p>
                     <p>The law came into operation on Monday, and since then the police both in the
@@ -152,8 +209,7 @@
                         ringleaders have been arrested.</p>
                 </div>
                 <div type="item">
-                    <head>ZIZINIA THEATRE.</head>
-                    <head>THE FOUNDLINGS’ GALA.</head>
+                    <head>ZIZINIA THEATRE. THE FOUNDLINGS’ GALA.</head>
                     <p>The success of yesterday evening’s "repre- sentation de gala" at the Zizinia
                         Theatre can only be described as colossal, and the long and varied programme
                         was gone through without a single hitch. The fete had been organised for the
@@ -210,11 +266,8 @@
                         Cake Walk at the con- clusion, in which Baron Rene de Menasce and Mr. Ramsay
                         brought down the house.</p>
                 </div>
-
-
                 <div type="item">
-                    <head>THE EGYPTIAN INVESTMENT AND AGENCY, LIMITED.</head>
-                    <head>STATUTORY MEETING IN LONDON.</head>
+                    <head>THE EGYPTIAN INVESTMENT AND AGENCY, LIMITED. STATUTORY MEETING IN LONDON.</head>
                     <p>The statutory meeting of the Egyptian In vestment and Agency (Limited) was
                         held at Winchester House, London, E.C., on the 7th inst., at 12 o’clodk
                         noon. Sir Frederic Fryer, K.G.S.I., chairman of the company, presiding. The
@@ -256,8 +309,6 @@
                         be of benefit to Egypt in directing the disposal of the accumulated wealth
                         of the country into useful channels.</p>
                 </div>
-
-
                 <div type="item">
                     <head>IMPORTANT SALE OF LAND.</head>
                     <p>The Wakfs Administration sold on Thursday last a part of the lands on tho
@@ -305,8 +356,7 @@
                         on view daily, from 5 till 11 p.m. </p>
                 </div>
                 <div type="item">
-                    <head>AMATEUR ATHLETIC SPORTS</head>
-                    <head>THIRTY FIRST ANNUAL MEETING.</head>
+                    <head>AMATEUR ATHLETIC SPORTS. THIRTY FIRST ANNUAL MEETING.</head>
                     <p>This great annual sporting event at Alex- andria came off yesterday on the A.
                         S. C. grounds in glorious weather, the heat of the sun being tempered by a
                         deliciously cool breeze. Notwithstanding the fact that the reception held on
@@ -478,19 +528,17 @@
                         2nd. The Fire Brigade beat the Police in their confined tug of war.</p>
                     <p>Champion.—J.R. Lees, 25 points. </p>
                 </div>
-                <div type="item">
+                <div type="section" feature="social">
                     <head>PERSONAL AND SOCIAL.</head>
                     <p>Lady Wingate, wife of Major Gerard Sir F. R. Wingate, the Sirdar, has arrived
                         at Stafford House, Dunbar, from Egypt, for the season.</p>
-
                     <p>We regret to announce the death of General Frederick Gasper le Gramd, Royal
                         Marine Light Infantry (retired), who commanded the Ma rines of the Fleet,
                         about 1,000 strong, when they lander at Alexandria after the bombard- ment,
                         and subsequently commander the de tachment which occupied Port Said.</p>
-                    <p> We regre to learm of the death, which took place at Cairo on Tuesday, of
+                    <p>We regre to learm of the death, which took place at Cairo on Tuesday, of
                         Colonel Temple. The funeral of the deceased took place yester- day and was
                         attended by, among others, Lord Cromer and General Bullock.</p>
-
                     <p>Yesterday, at All Saints’ Church, Cairo, the marriage took place of Miss
                         Blanche Harley and Mr. George Ludolf. The wedding party started from Miss
                         James's Nursing Home, Mr. Du Boulay giving away the bride, who looked very
@@ -499,7 +547,6 @@
                         were Dean Butcher, Mrs. du Boulay, Mr. P. du Boulay, Mrs. Roussin, Mrs).
                         Ross, Miss Elinor Frizell, and Mr. Mortimer. Mr. and Mrs. Ludolf leave
                         Ghezireh Palace Hotel for Assiout to-morrow.</p>
-
                     <p>The marriage arranged between Mr. Max E. Steinauer and Lina, daughter of
                         Brewster Bey, the popular English Secretary to H.H. the Khedive, and Mrs.
                         Brewster, will take place at St. Joseph’s Church, Cairo, on the 26th inst.,
@@ -512,40 +559,36 @@
                     <p>Major MacMahon, R.A., F.R.S., accom- panied by Mr. Heine, is spending a few
                         days in Egypt on his way to England. Major MacMahon is a well-known savant
                         deeply interested in the study of Oriental problems.</p>
-                    <p> The President of the Quarantine Board re- turned to Alexandria yesterday
+                    <p>The President of the Quarantine Board re- turned to Alexandria yesterday
                         evening from Tor and Cairo.</p>
                 </div>
-
-                <div type="item">
-                    <head>Passenger Lists.</head>
+                <div type="section" feature="passList">
+                    <head>PASSENGER Lists.</head>
                     <head>Departures.</head>
-                    <p>Per N.D.L S.S. "Schleswig," left Alexandria yesterday for Marseilles:- Miss
+                    <p>Per N.D.L S.S. "Schleswig," left Alexandria yesterday for Marseilles:-</p><p>Miss
                         Florence Abraham, Mr. John Burnaly Atkins, Mr. Freiherr and Baronin von
-                        Adels- heim, Mile Freiin von Adelsheim, Mr. Oreste Aceettulli, Misa C.
-                        Barwell, Mr. Ernest W. and Miss M. Bellhouse, Lady Bisset, Mr. Hugo Berger,
-                        Hon. W. Calthorpe, Mr. Charles Contour, Miss Cochran, Mrs. F. B. M. Creaton,
-                        Mme Cassar, Mme Rieh. Dietterle, Mr. Zaki Daghistane, Mr. and Mme Alfred
-                        Eckhardt, Mrs. Fenwick, Mr. Gaheimrat Prof. Dr Fraen- kel, Mr. Alfred
-                        Flugge, Mr. J. Fuchsius, Mr. and Mme Walter Goldschmidt, M. and Mme
-                        Goedecker, Mr. de Grimberghe. Mrs, Gollock, Hon. Mrs. Ivor Guest, Miss
-                        Grosvenor, Miss Lucie Hartrath, Mr. an Mrs. C. F. Har- tridge, Mr. C. C. A.
-                        Hartridge jr., Mr. and Mme Huniken, Mrs. James Hall, Mr. Oscar Huber, Major
+                        Adels- heim, Mile Freiin von Adelsheim, <persName>Mr. Oreste Aceettulli</persName>, Misa C.
+                        Barwell, Mr. Ernest W. and Miss M. Bellhouse, Lady Bisset, <persName>Mr. Hugo Berger</persName>,
+                        Hon. W. Calthorpe, <persName>Mr. Charles Contour</persName>, <persName>Miss Cochran</persName>, Mrs. F. B. M. Creaton, <persName>Mme. Cassar</persName>, Mme Rieh. Dietterle, <persName>Mr. Zaki Daghistane</persName>, Mr. and Mme Alfred
+                        Eckhardt, <persName>Mrs. Fenwick</persName>, Mr. Gaheimrat Prof. Dr Fraen- kel, Mr. Alfred
+                        Flugge, <persName>Mr. J. Fuchsius</persName>, Mr. and Mme Walter Goldschmidt, M. and Mme
+                        Goedecker, Mr. de Grimberghe. Mrs, Gollock, Hon. Mrs. Ivor Guest, <persName>Miss
+                        Grosvenor</persName>, Miss Lucie Hartrath, Mr. an Mrs. C. F. Har- tridge, Mr. C. C. A.
+                        Hartridge jr., Mr. and Mme Huniken, Mrs. James Hall, <persName>Mr. Oscar Huber</persName>, Major
                         and Mrs. L’Estrange Johnstone, Mr. and Miss Kirkes Myers, Mr. and Mme Carl
                         Kropp, Mlle. Clara Kropp, Mr. and Mme. Kirschneck, Miss L. and Miss G.
-                        Kirby, Mr. August Kiene, Mlle. Kuhn, Baron vou Lederer, Mrs, Lovell, Gene-
-                        ral and Mrs. Fred. Lance, Mme. H. Littauer, Mr. M. Levy, Mr. Pio Leonori,
-                        Mrs. Robert Mather. Mlle. Alice Matsdorf, Mr. C. Michelau, Mr. X. Mavroidi,
-                        Mr. L. Mavroidi, Mme, Th. Mez, Mr. B. Mazloum, Mlle. Louise Natter, Mr.
-                        Cecil H. Oliverson, Lady Elwin Palmer, Miss Palmer, Miss Price, Mr. and
-                        Mlle. Roeder, Mlle. Clara Rhode, Mrs. Reeves, Mr. W. Robbin, Mr. Hans
-                        Reusert, Mr. Carl Rapp, Mr. Paul Stern, Mr. A. Stockinger, Mr. Georg
-                        Staedtler, Dr. F. W. Tunnicliffe, Mr. Sanitatsrat D. Velten, Mr. M. Wyman,
-                        Mr. Weismuller, Miss Warburton, Mr. and Mrs. W. E. Walton, Mr. aud Mrs.
-                        Wanz, Mr. D. W. Smith. Mr. H. D. Osgood, Mr. Lydston Crunf, Mr. W. Rentsch,
-                        Mrs. Nahman, Mr. J. Rolo, Dr.Faber, Capt. Lance, Mr. C. Vernon, Mr. E.
+                        Kirby, <persName>Mr. August Kiene</persName>, <persName>Mlle. Kuhn</persName>, Baron vou Lederer, <persName>Mrs, Lovell</persName>, Gene-
+                        ral and Mrs. Fred. Lance, Mme. H. Littauer, <persName>Mr. M. Levy</persName>, Mr. Pio Leonori,
+                        Mrs. Robert Mather. Mlle. Alice Matsdorf, <persName>Mr. C. Michelau</persName>, Mr. X. Mavroidi,
+                        Mr. L. Mavroidi, Mme, Th. Mez, <persName>Mr. B. Mazloum</persName>, Mlle. Louise Natter, Mr.
+                        Cecil H. Oliverson, Lady Elwin Palmer, <persName>Miss Palmer</persName>, Miss Price, Mr. and
+                        Mlle. Roeder, Mlle. Clara Rhode, <persName>Mrs. Reeves</persName>, <persName>Mr. W. Robbin</persName>, Mr. Hans
+                        Reusert, <persName>Mr. Carl Rapp</persName>, Mr. Paul Stern, <persName>Mr. A. Stockinger</persName>, Mr. Georg
+                        Staedtler, Dr. F. W. Tunnicliffe, Mr. Sanitatsrat D. Velten, <persName>Mr. M. Wyman</persName>, <persName>Mr. Weismuller</persName>, <persName>Miss Warburton</persName>, Mr. and Mrs. W. E. Walton, Mr. aud Mrs.
+                        Wanz, Mr. D. W. Smith. Mr. H. D. Osgood, <persName>Mr. Lydston Crunf</persName>, Mr. W. Rentsch,
+                        Mrs. Nahman, <persName>Mr. J. Rolo</persName>, Dr.Faber, Capt. Lance, <persName>Mr. C. Vernon</persName>, Mr. E.
                         Lambton.</p>
                 </div>
-
                 <div type="item">
                     <head>TYROL.</head>
                     <p>Weissentein Castle 3410 ft. First-class private hotel near Windisch Matroi ;
@@ -554,8 +597,7 @@
                         “Egyptian Gazette” office, Cairo.</p>
                     <p>25365-48-28</p>
                 </div>
-
-                <div type="item" scope="advertisement" xml:id="deg-ad-cah01">
+                <div type="advert" xml:id="deg-ad-cah01">
                     <head>CARLTON HOTEL</head>
                     <p>Bulkeley, Ramleh.</p>
                     <p>Ten minutes from Alexandria. First-Class in every respect Very moderate
@@ -564,9 +606,7 @@
                     <p>24480-24-5-905</p>
                     <p>G. AQUILINA, Proprieter.</p>
                 </div>
-
-
-                <div type="item" scope="advertisement" xml:id="deg-ad-aan02">
+                <div type="advert" xml:id="deg-ad-aan02">
                     <p>Anglo-American Nile Steamer &amp; Hotel Company</p>
                     <p>River Transport of Good Between Alexandria &amp; Cairo</p>
                     <p>Three Sailings a-Week.</p>
@@ -574,33 +614,61 @@
                     <p>Alexandria Bonded Warehouse Co. Ld</p>
                     <p>1.10.904</p>
                 </div>
-
-
-
             </div>
-            <div type="page" n="4">
-                <cb n="1"/>
-                <cb n="2"/>
-                <cb n="3"/>
-                <cb n="4"/>
-                <cb n="5"/>
-                <cb n="6"/>
-            </div>
-            <div type="page" n="5">
-                <cb n="1"/>
-                <cb n="2"/>
-                <cb n="3"/>
-                <cb n="4"/>
-                <cb n="5"/>
-                <cb n="6"/>
-            </div>
-            <div type="page" n="6">
-                <cb n="1"/>
-                <cb n="2"/>
-                <cb n="3"/>
-                <cb n="4"/>
-                <cb n="5"/>
-                <cb n="6"/>
+            <pb n="4"/>
+            <div type="page" n="4" status="empty"> </div>
+            <pb n="5"/>
+            <div type="page" n="5" status="empty"> </div>
+            <pb n="6"/>
+            <div type="page" n="6"><cb n="1"/>
+                <div type="item" feature="exportManifests" status="verified">
+                    <head> EXPORT
+                        MANIFESTS: </head>
+                    <p>For LIVERPOOL," by the S.S. "Roumelia”, sailed on the 29th March :</p>
+                    <p>Barker &amp; Co., 202 tons cotton seed</p>
+                    <p>Choremi, Benachi &amp; Co., 43 bales cotton</p>
+                    <p>J. Planta &amp; Co., 50 „ „</p>
+                    <p>Peel &amp; Co., 200 „ „</p>
+                    <p>293 bales cotton</p>
+                    <p>Arbib &amp; Son, 912 bags oil cake</p>
+                    <p>G. M. Ades, 253 bags onions</p>
+                    <p>Abou Zayan, 230 „ „</p>
+                    <p>C. H. Schoeller, 600 „ „</p>
+                    <p>L. Onofrio, 450 „ „</p>
+                    <p>Mihailides, 1,986 „ „</p>
+                    <p>H. Stavridis, 1,336 „ „</p>
+                    <p>G. Buhagiar, 1,022 „ „</p>
+                    <p>P. Adamandiadis, 250 „ „</p>
+                    <p>B. Antoun, 298 „ „</p>
+                    <p>M. H. el Cherif, 736 „ „</p>
+                    <p>E. Barber &amp; Son, 900 „ „</p>
+                    <p>G. Kaniskeri, 1,658 „ „</p>
+                    <p>A. Atalla, 541 „ „</p>
+                    <p>Martgetson &amp; Co., · 174 „ „</p>
+                    <p>J. Tulloch, 1,002 „ „</p>
+                    <p>A. Doss, 946 „ „</p>
+                    <p>Ayoub Bey, 321 „ „</p>
+                    <p>H. Deghem, 536 „ „</p>
+                    <p>C. Movroscufi, 400 „ „</p>
+                    <p>Aly Moh. Saleh, 730 „ „</p>
+                    <p>P. Bonnici, 1,060 „ „</p>
+                    <p>Glover Hill, 600 „ „</p>
+                    <p>Fix &amp; David, 335 cases eggs</p>
+                    <p>Hadjes &amp; Co., 162 cases eggs</p>
+                    <p>For PIRÆUS and CONSTANTINOPLE, by the S.S. "Prince Abbas”, sailed on the 24th
+      March :</p>
+                    <p>Various, 950 bags rice, 840 bags sugar, 50 bags cotton, 80 bags onions, 80
+      bags henna, 30 bags cocoa nuts, 7 packages mats, 1,195 packages vegetables,
+      38 packages fish, 22 packages sundries</p>
+                    <p>Pour LA SYRIE, par le batean ital. "Adria”, parti le 29 mars :</p>
+                    <p>Divers, 17 colis divers</p>
+                    <p>Pour LIVOURNE, par le voilier ital. "Gennarino”, parti le 30 mars :</p>
+                    <p>F. Panelli, 509 tonnes vieux fer</p>
+                    <p>Pour ALEXANDRETTE, par le bateau ott. "Seyar", parti le 30 mars :</p>
+                    <p>Divers, 392 colis divers</p>
+                    <p>Pour LA SYRIE, par le bateau fr. "Niger”, parti le 30 mars :</p>
+                    <p>Divers, 30 colis légumes, 96 colis divers</p>
+                </div>
             </div>
         </body>
     </text>
